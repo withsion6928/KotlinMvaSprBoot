@@ -11,7 +11,7 @@ class GetApiController{
     fun hello(): String {
         return "hello kotlin2222"
     }
-
+    //예전 방식
     @RequestMapping(method = [RequestMethod.GET], path =["/request-mapping"])
     fun requestMapping(): String {
         return "mapping"

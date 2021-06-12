@@ -25,7 +25,7 @@ class PutApiController {
 
        return  UserResponse().apply{
             //1.result
-            Result().apply{
+            this.result = Result().apply{
                 this.resultCode="ok"
                 this.resultMessage="성공"
             }

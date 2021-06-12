@@ -13,6 +13,5 @@ data class UserRequest (
 
 //    @JsonProperty("phone_number")
     var phoneNumber:String?=null
+
 )
-
-
